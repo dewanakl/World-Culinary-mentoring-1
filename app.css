@@ -1,0 +1,58 @@
+.text-center {
+    text-align: center;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.root {
+    padding: 0 40px 0 40px;
+}
+
+section {
+    text-align: center;
+    flex: 1;
+    width: 30%;
+    padding: 0 10px;
+}
+
+section>div {
+    padding: 16px;
+}
+
+section>div>img {
+    max-width: 100%;
+}
+
+form>div {
+    padding: 4rem;
+    background-color: aquamarine;
+}
+
+form>div>label {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+form>div>button {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: 1.5rem;
+}
